@@ -1,0 +1,22 @@
+.nav__wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__wrapper button{
+  padding: 10px 5px;
+  background: gray;
+  border-radius: 20px;
+  margin: 5px 10px;
+  border: gray solid 1px;
+  width: 175px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav__wrapper button:hover{
+  background: #484646;
+  color: white;
+}
